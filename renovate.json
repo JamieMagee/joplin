@@ -3,25 +3,37 @@
   "includeForks": true,
   "packageRules": [
     {
-      "paths": ["CliClient/package.json"]
+      "paths": ["CliClient/package.json"],
+      "semanticCommitType": "CLI"
     },
     {
-      "paths": ["Clipper/joplin-webclipper/package.json"]
+      "paths": ["Clipper/joplin-webclipper/package.json"],
+      "semanticCommitType": "Clipper",
+      "labels": ["clipper"]
     },
     {
-      "paths": ["Clipper/joplin-webclipper/popup/package.json"]
+      "paths": ["Clipper/joplin-webclipper/popup/package.json"],
+      "semanticCommitType": "Clipper",
+      "labels": ["clipper"]
     },
     {
-      "paths": ["ElectronClient/app/package.json"]
+      "paths": ["ElectronClient/app/package.json"],
+      "semanticCommitType": "Desktop",
+      "labels": ["desktop"]
     },
     {
-      "paths": ["ReactNativeClient/lib/package.json"]
+      "paths": ["ReactNativeClient/lib/package.json"],
+      "semanticCommitType": "Mobile",
+      "labels": ["mobile"]
     },
     {
-      "paths": ["ReactNativeClient/package.json"]
+      "paths": ["ReactNativeClient/package.json"],
+      "semanticCommitType": "Mobile",
+      "labels": ["mobile"]
     },
     {
-      "paths": ["Tools/package.json"]
+      "paths": ["Tools/package.json"],
+      "semanticCommitType": "Tools"
     }
   ]
 }
