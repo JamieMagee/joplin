@@ -1,5 +1,5 @@
 {
-  "extends": ["config:base", ":rebaseStalePrs"],
+  "extends": ["config:base", ":rebaseStalePrs", ":prHourlyLimitNone"],
   "includeForks": true,
   "packageRules": [
     {
