@@ -1,0 +1,44 @@
+{
+  "extends": [
+    "config:base",
+    ":rebaseStalePrs"
+  ],
+  "includeForks": true,
+  "packageRules": [
+    {
+      "paths": [
+        "CliClient/package.json"
+      ]
+    },
+    {
+      "paths": [
+        "Clipper/joplin-webclipper/package.json"
+      ]
+    },
+    {
+      "paths": [
+        "Clipper/joplin-webclipper/popup/package.json"
+      ]
+    },
+    {
+      "paths": [
+        "ElectronClient/app/package.json"
+      ]
+    },
+    {
+      "paths": [
+        "ReactNativeClient/lib/package.json"
+      ]
+    },
+    {
+      "paths": [
+        "ReactNativeClient/package.json"
+      ]
+    },
+    {
+      "paths": [
+        "Tools/package.json"
+      ]
+    }
+  ]
+}
