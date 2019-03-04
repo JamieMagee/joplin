@@ -68,13 +68,13 @@
   },
   "homepage": "https://github.com/laurent22/joplin#readme",
   "devDependencies": {
-    "ajv": "^6.5.0",
-    "app-builder-bin": "^1.9.11",
-    "babel-cli": "^6.26.0",
-    "babel-preset-react": "^6.24.1",
+    "ajv": "6.5.0",
+    "app-builder-bin": "1.9.11",
+    "babel-cli": "6.26.0",
+    "babel-preset-react": "6.24.1",
     "electron": "4.0.5",
     "electron-builder": "20.38.5",
-    "electron-rebuild": "^1.8.4"
+    "electron-rebuild": "1.8.4"
   },
   "optionalDependencies": {
     "7zip-bin-linux": "^1.0.1",
